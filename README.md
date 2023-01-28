@@ -5,7 +5,10 @@ Changes from default Unity project with Android build target:
 
 Packages:  
 Installed XR Plug-in Management. Targets Quest, Quest 2, Quest Pro  
+Installed OpenXR Plugin  
+Installed Oculus XR Plugin  
 Installed XR Interaction Toolkit version 2.3.0 pre.1  
+Installed XR Hands 1.1.0 pre.2  
 URP Samples imported (includes useful blob shadow shader)  
 
 Quality Settings:  
