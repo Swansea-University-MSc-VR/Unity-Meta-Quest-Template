@@ -1,5 +1,6 @@
 # Unity-Meta-Quest-Template
 Unity template project optimised for Meta Quest devices.
+Project made with Unity 2021.3.17f
 
 Changes from default Unity project with Android build target:  
 
