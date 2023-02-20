@@ -33,6 +33,7 @@ Target Architecture set to Arm64
 Active Input Handling set to Both  
 Optimize Mesh Data enabled   
 
+
 Physics Settings:  
 Reuse Collision Callbacks enabled  
 Default Max Angular Speed set to 7  
@@ -49,6 +50,7 @@ Main Light – Cast Shadows disabled
 Additional Lights set to Per Pixel  
 
 Notes:  
+The project is set up to have to realtime shadows and no additional lights.
 Adjust URP shadow settings according to the needs of your game/app.   
 For release builds enable Low Overhead Mode under Oculus XR Plug-in Management options.  
 
