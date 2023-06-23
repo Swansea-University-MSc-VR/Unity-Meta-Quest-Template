@@ -1,6 +1,6 @@
 # Unity-Meta-Quest-Template
 Unity template project optimised for Meta Quest devices.
-Project made with Unity 2021.3.17f
+Current Project Version Unity 2022.3.2f
 
 Changes from default Unity project with Android build target:  
 
@@ -8,12 +8,13 @@ Packages:
 Installed XR Plug-in Management. Targets Quest, Quest 2, Quest Pro  
 Installed OpenXR Plugin  
 Installed Oculus XR Plugin  
-Installed XR Interaction Toolkit version 2.3.0 pre.1  
-Installed XR Hands 1.1.0 pre.2  
+Installed XR Interaction Toolkit version 2.4.0
+Installed XR Hands 1.2.1
+Installed Meta OpenXR Feature 0.1.1
 URP Samples imported (includes useful blob shadow shader)  
 
 Quality Settings:  
-Custom Quality profiles  for Quest, Quest 2, Quest Pro. (Default Quest 2)  
+Custom Quality profiles  for Quest, Quest 2, Quest Pro, Quest 3. (Default Quest 2)  
 Vsync disabled  
 Anisotropic Textures set to Per Texture.  
 Shadowmask Mode set to Shadowmask  
@@ -36,7 +37,8 @@ Optimize Mesh Data enabled
 
 Physics Settings:  
 Reuse Collision Callbacks enabled  
-Default Max Angular Speed set to 7  
+Default Max Angular Speed set to 7 
+Enabled Improved Patch Friction 
 
 Time Settings:  
 Maximum Allowed Timestep set to 0.0138 (for 72 Hz)  
