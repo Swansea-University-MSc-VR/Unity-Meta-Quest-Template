@@ -541,7 +541,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2055973457806187997, guid: dd0e0c10a4605a94195bd199e9380959, type: 3}
+  - {fileID: 2100000, guid: ab5955b59dccad846b9e3d3d2863d153, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -607,7 +607,6 @@ MonoBehaviour:
     m_Bits: 1
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
-  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
@@ -638,18 +637,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstFocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastFocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusExited:
     m_PersistentCalls:
       m_Calls: []
   m_Activated:
@@ -1010,6 +997,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 65
       objectReference: {fileID: 0}
+    - target: {fileID: -6625833625214409067, guid: dd0e0c10a4605a94195bd199e9380959,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 56d3b78b00c21c24babb0058dd77b8ce, type: 2}
     - target: {fileID: -5743350618785959237, guid: dd0e0c10a4605a94195bd199e9380959,
         type: 3}
       propertyPath: m_IsActive
@@ -1030,6 +1022,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.28
       objectReference: {fileID: 0}
+    - target: {fileID: -4663239338312414839, guid: dd0e0c10a4605a94195bd199e9380959,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 63bbb62b3d3226b40b3231359452c217, type: 2}
+    - target: {fileID: -3230359877503427227, guid: dd0e0c10a4605a94195bd199e9380959,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: ab5955b59dccad846b9e3d3d2863d153, type: 2}
     - target: {fileID: -450435477336378351, guid: dd0e0c10a4605a94195bd199e9380959,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1050,11 +1052,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 65
       objectReference: {fileID: 0}
+    - target: {fileID: 3896294155803048942, guid: dd0e0c10a4605a94195bd199e9380959,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0997aa4b44b688e4ca96fd4eb027c891, type: 2}
     - target: {fileID: 6999263927671335800, guid: dd0e0c10a4605a94195bd199e9380959,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 4d2c67040eef9764aacc0a9d04029b5a, type: 2}
+    - target: {fileID: 6999263927671335800, guid: dd0e0c10a4605a94195bd199e9380959,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: f20e181c74d0cf2408f4e7046a522ae4, type: 2}
     - target: {fileID: 8326240574725425764, guid: dd0e0c10a4605a94195bd199e9380959,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1105,7 +1117,6 @@ MonoBehaviour:
     m_Bits: 1
   m_DistanceCalculationMode: 1
   m_SelectMode: 1
-  m_FocusMode: 1
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
@@ -1136,18 +1147,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_SelectExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FirstFocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_LastFocusExited:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusEntered:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FocusExited:
     m_PersistentCalls:
       m_Calls: []
   m_Activated:
