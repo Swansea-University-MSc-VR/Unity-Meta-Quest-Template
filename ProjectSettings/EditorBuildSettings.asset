@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Lightmapping Example/Lightmap Final.unity
-    guid: fb0ca1eace2cfe845864fc03db83c705
   - enabled: 1
-    path: Assets/Unity VR Template/Scenes/SampleScene.unity
-    guid: 55daccc09a3b69647bbab145b54a3ab3
+    path: Assets/Lightmapping Example/Lightmap WIP.unity
+    guid: 64cc869ebef830242b40a405cbca39cc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: fc52e5fd416550f4dafe21b2532c403f,
       type: 2}
