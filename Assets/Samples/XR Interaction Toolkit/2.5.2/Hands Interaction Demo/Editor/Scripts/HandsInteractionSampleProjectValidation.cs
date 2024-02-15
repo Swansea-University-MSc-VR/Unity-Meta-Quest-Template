@@ -206,7 +206,7 @@ namespace UnityEditor.XR.Interaction.Toolkit.Samples.Hands
             if (request.Status == StatusCode.Success && request.Result.Length > 0)
             {
                 var versions = request.Result[0].versions;
-                var verifiedVersion = new PackageVersion(versions.verified);
+                var verifiedVersion = new PackageVersion(versions.recommended);
                 var latestCompatible = new PackageVersion(versions.latestCompatible);
                 if (verifiedVersion < s_RecommendedPackageVersion && s_RecommendedPackageVersion <= latestCompatible)
                     addRequest = $"{k_HandsPackageName}@{s_RecommendedPackageVersion}";
